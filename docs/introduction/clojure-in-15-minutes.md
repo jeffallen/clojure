@@ -510,7 +510,7 @@ All Practicalli projects have namespace domains of `practicalli`
 (ns practicalli.service-name)
 ```
 
-`require` allows code from one namespace to be accessed from another namespace, either from a the same Clojure project or from a library added to the project classpath.
+`require` allows code from one namespace to be accessed from another namespace, either from the same Clojure project or from a library added to the project classpath.
 
 The `:as` directive with `require` is used to specify an alias name, a short-hand for the full library name
 
